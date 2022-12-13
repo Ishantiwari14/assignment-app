@@ -39,6 +39,7 @@ select {
 .circles {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .left-rectangle, .right-rectangle {
   height: 15em;
@@ -79,5 +80,9 @@ select {
   
   margin-left: auto;
   margin-right: auto;
-  
+
+}
+
+.selectors > select {
+  width: 15em;
 }
