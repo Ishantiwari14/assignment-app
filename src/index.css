@@ -33,7 +33,7 @@ select {
 .rectangles {
   display: flex;
   flex-direction: row;
-  
+  align-items: center;
 }
 
 .circles {
