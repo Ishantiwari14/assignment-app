@@ -38,32 +38,30 @@ select {
   display: flex;
   flex-direction: row;
 }
-
-.rectangles>div {
-  background-color: black;
-  color:black;
-  /* width: 100px;
-  height: 100px;*/ 
-  margin: 20px; 
-  
-}
-
-.circles>div {
-  background-color: black;
-  color: black;
-  margin: 2em;
-}
-
 .left-rectangle, .right-rectangle {
   height: 200px;
   width: 90px;
-  color: blue
 }
 
 .mid-rectangle {
   height: 170px;
   width: 200px;
 }
+
+.rectangles>div {
+  background-color: black;
+  color:black;
+  margin: 20px; 
+  
+}
+
+ .circles>div {
+  background-color: black;
+  color: black;
+  margin: 2em;
+} 
+
+
 
 .circle {
   border-radius: 50%;
