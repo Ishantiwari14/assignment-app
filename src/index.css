@@ -24,7 +24,9 @@ select {
 .shapes {
   display: flex;
   flex-direction: column;
-  
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   
 }
 
@@ -39,26 +41,26 @@ select {
   flex-direction: row;
 }
 .left-rectangle, .right-rectangle {
-  height: 200px;
-  width: 90px;
+  height: 15em;
+  width: 9em;
 }
 
 .mid-rectangle {
-  height: 170px;
-  width: 200px;
+  height: 10em;
+  width: 20em;
 }
 
 .rectangles>div {
   background-color: black;
   color:black;
-  margin: 20px; 
+  margin: 1.5em; 
   
 }
 
  .circles>div {
   background-color: black;
   color: black;
-  margin: 2em;
+  margin: 1.5em;
 } 
 
 
@@ -72,5 +74,10 @@ select {
 .selectors {
   display: flex;
   justify-content: space-around;
-  width: fit-content;
+  width: 50%;
+  margin-top: 2em;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
 }
